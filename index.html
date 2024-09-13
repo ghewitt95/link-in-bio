@@ -4,6 +4,28 @@
     <title>Link In Bio</title>
     <meta charset="UTF-8">
     <!-- CSS links-->
+     <style>
+      body {
+        padding-top: 40px;
+        padding-bottom:40px;
+      }
+
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        border: solid black 2px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+        border: solid black 1px;
+      }
+     </style>
 
   </head>
 
@@ -11,7 +33,7 @@
     
     <div class="main-container">
       <div class="image-row">
-        <img src="/img/my-headshot.jpg" alt="Gabe headshot">
+        <img class="avatar-image" src="/img/my-headshot.jpg" alt="Gabe headshot">
       </div>
 
       <div class="name-row">
@@ -39,28 +61,28 @@
       <div class="links-row">
 
         <div class="item">
-          <img src="/img/ruby2.jpg">
+          <img class="thumbnail" src="/img/ruby2.jpg" alt="ruby gem">
           <a  target="_blank" href="https://dev.to/ghewitt95">
             Check Out My Blog!
           </a>
         </div>
 
         <div class="item">
-          <img src="/img/jamaican-flag.jpg">
+          <img class="thumbnail" src="/img/jamaican-flag.jpg" alt="jamaican flag">
           <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_Jamaican_dishes_and_foods">
             Jamacian Cuisine = My Favorite!
           </a>
         </div>
 
         <div class="item">
-          <img src="/img/Spotify_logo.png">
+          <img class="thumbnail" src="/img/Spotify_logo.png" alt="Spotify logo">
           <a target="_blank" href="https://open.spotify.com">
             Check out my Spotify!
           </a>
         </div>
         
         <div class="item">
-          <img src="/img/teris-logo.jpg">
+          <img class="thumbnail" src="/img/teris-logo.jpg" alt="tetris logo">
 
           <a target="_blank" href="https://tetris.com/play-tetris">
             Beat my High Score!
